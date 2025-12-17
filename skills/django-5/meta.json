@@ -1,0 +1,14 @@
+{
+  "name": "django-5",
+  "displayName": "Django 5",
+  "version": "1.0.0",
+  "description": "Code review skill for Django 5 applications with async views and modern patterns",
+  "category": "backend",
+  "language": "Python",
+  "framework": "Django",
+  "frameworkVersion": "5.x",
+  "tags": ["django", "python", "backend", "async", "orm"],
+  "author": "Twiced Technology GmbH",
+  "license": "MIT",
+  "status": "coming-soon"
+}

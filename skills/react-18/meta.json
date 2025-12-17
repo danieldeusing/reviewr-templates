@@ -1,0 +1,14 @@
+{
+  "name": "react-18",
+  "displayName": "React 18",
+  "version": "1.0.0",
+  "description": "Code review skill for React 18 applications with hooks and concurrent features",
+  "category": "frontend",
+  "language": "TypeScript",
+  "framework": "React",
+  "frameworkVersion": "18.x",
+  "tags": ["react", "typescript", "frontend", "hooks", "concurrent"],
+  "author": "Twiced Technology GmbH",
+  "license": "MIT",
+  "status": "coming-soon"
+}

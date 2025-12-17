@@ -1,0 +1,13 @@
+{
+  "name": "lint-check",
+  "displayName": "Lint Check",
+  "version": "1.0.0",
+  "description": "Pre-commit hook for linting validation",
+  "category": "quality",
+  "type": "hook",
+  "event": "pre-commit",
+  "tags": ["lint", "eslint", "quality", "code-style"],
+  "author": "Twiced Technology GmbH",
+  "license": "MIT",
+  "status": "coming-soon"
+}

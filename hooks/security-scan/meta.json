@@ -1,0 +1,13 @@
+{
+  "name": "security-scan",
+  "displayName": "Security Scan",
+  "version": "1.0.0",
+  "description": "Pre-commit hook for security vulnerability scanning",
+  "category": "security",
+  "type": "hook",
+  "event": "pre-commit",
+  "tags": ["security", "vulnerability", "scan", "owasp"],
+  "author": "Twiced Technology GmbH",
+  "license": "MIT",
+  "status": "coming-soon"
+}

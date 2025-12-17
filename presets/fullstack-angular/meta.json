@@ -1,0 +1,17 @@
+{
+  "name": "fullstack-angular",
+  "displayName": "Full-Stack Angular",
+  "version": "1.0.0",
+  "description": "Full-stack preset with Angular frontend and Node.js backend skills",
+  "category": "fullstack",
+  "type": "preset",
+  "includes": [
+    "skills/angular-19",
+    "hooks/lint-check",
+    "hooks/security-scan"
+  ],
+  "tags": ["angular", "nodejs", "fullstack", "typescript"],
+  "author": "Twiced Technology GmbH",
+  "license": "MIT",
+  "status": "coming-soon"
+}

@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "templates": [
+    {
+      "name": "angular-19",
+      "path": "skills/angular-19",
+      "type": "skill",
+      "description": "Angular 19 code review skill with latest patterns and best practices"
+    },
+    {
+      "name": "react-18",
+      "path": "skills/react-18",
+      "type": "skill",
+      "description": "React 18 code review skill with hooks and concurrent features"
+    },
+    {
+      "name": "django-5",
+      "path": "skills/django-5",
+      "type": "skill",
+      "description": "Django 5 code review skill with async views and modern patterns"
+    },
+    {
+      "name": "security-scan",
+      "path": "hooks/security-scan",
+      "type": "hook",
+      "description": "Pre-commit hook for security vulnerability scanning"
+    },
+    {
+      "name": "lint-check",
+      "path": "hooks/lint-check",
+      "type": "hook",
+      "description": "Pre-commit hook for linting validation"
+    },
+    {
+      "name": "security-reviewer",
+      "path": "agents/security-reviewer",
+      "type": "agent",
+      "description": "Specialized agent for security-focused code reviews"
+    },
+    {
+      "name": "fullstack-angular",
+      "path": "presets/fullstack-angular",
+      "type": "preset",
+      "description": "Full-stack preset with Angular frontend and Node.js backend skills"
+    }
+  ]
+}

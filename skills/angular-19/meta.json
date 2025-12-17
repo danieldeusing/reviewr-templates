@@ -1,0 +1,21 @@
+{
+  "name": "angular-19",
+  "displayName": "Angular 19",
+  "version": "1.0.0",
+  "description": "Code review skill for Angular 19 applications with signal-based reactivity and modern patterns",
+  "category": "frontend",
+  "language": "TypeScript",
+  "framework": "Angular",
+  "frameworkVersion": "19.x",
+  "tags": ["angular", "typescript", "frontend", "signals", "standalone"],
+  "author": "Twiced Technology GmbH",
+  "license": "MIT",
+  "requires": {
+    "reviewr": ">=0.1.0"
+  },
+  "detectionPatterns": {
+    "files": ["angular.json", "package.json"],
+    "dependencies": ["@angular/core"],
+    "versionRange": ">=19.0.0"
+  }
+}

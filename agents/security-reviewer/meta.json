@@ -1,0 +1,12 @@
+{
+  "name": "security-reviewer",
+  "displayName": "Security Reviewer",
+  "version": "1.0.0",
+  "description": "Specialized agent for security-focused code reviews",
+  "category": "security",
+  "type": "agent",
+  "tags": ["security", "review", "vulnerability", "audit"],
+  "author": "Twiced Technology GmbH",
+  "license": "MIT",
+  "status": "coming-soon"
+}
