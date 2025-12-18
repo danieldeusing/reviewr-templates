@@ -10,5 +10,15 @@
   "tags": ["react", "typescript", "frontend", "hooks", "concurrent"],
   "author": "Twiced Technology GmbH",
   "license": "MIT",
-  "status": "coming-soon"
+  "detectionPatterns": {
+    "files": ["package.json"],
+    "dependencies": ["react"],
+    "versionRange": ">=18.0.0 <19.0.0"
+  },
+  "techMatch": {
+    "rules": [
+      {"package": "react", "version": ">=18.0.0 <19.0.0", "required": true, "weight": 2.0},
+      {"package": "react-dom", "version": ">=18.0.0", "required": false, "weight": 1.0}
+    ]
+  }
 }

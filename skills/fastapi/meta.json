@@ -1,0 +1,25 @@
+{
+  "name": "fastapi",
+  "displayName": "FastAPI",
+  "version": "1.0.0",
+  "description": "Code review skill for FastAPI applications with async patterns and Pydantic models",
+  "category": "backend",
+  "language": "Python",
+  "framework": "FastAPI",
+  "frameworkVersion": "0.100+",
+  "tags": ["fastapi", "python", "backend", "async", "pydantic", "api"],
+  "author": "Twiced Technology GmbH",
+  "license": "MIT",
+  "detectionPatterns": {
+    "files": ["requirements.txt", "pyproject.toml"],
+    "dependencies": ["fastapi"],
+    "versionRange": ">=0.100.0"
+  },
+  "techMatch": {
+    "rules": [
+      {"package": "fastapi", "version": ">=0.100.0", "required": true, "weight": 2.0},
+      {"package": "pydantic", "version": ">=2.0.0", "required": false, "weight": 1.0},
+      {"package": "uvicorn", "version": "*", "required": false, "weight": 0.5}
+    ]
+  }
+}

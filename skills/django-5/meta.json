@@ -7,8 +7,19 @@
   "language": "Python",
   "framework": "Django",
   "frameworkVersion": "5.x",
-  "tags": ["django", "python", "backend", "async", "orm"],
+  "tags": ["django", "python", "backend", "async", "orm", "drf"],
   "author": "Twiced Technology GmbH",
   "license": "MIT",
-  "status": "coming-soon"
+  "detectionPatterns": {
+    "files": ["requirements.txt", "pyproject.toml", "setup.py"],
+    "dependencies": ["django", "Django"],
+    "versionRange": ">=5.0.0 <6.0.0"
+  },
+  "techMatch": {
+    "rules": [
+      {"package": "django", "version": ">=5.0.0 <6.0.0", "required": true, "weight": 2.0},
+      {"package": "Django", "version": ">=5.0.0 <6.0.0", "required": false, "weight": 2.0},
+      {"package": "djangorestframework", "version": "*", "required": false, "weight": 1.0}
+    ]
+  }
 }
